@@ -1,0 +1,24 @@
+
+== Setup
+
+ $ git clone ***
+ $ cd ***
+ $ rvm use 1.9.2@recommendify --create
+ $ echo 'rvm use 1.9.2@recommendify' > .rvmrc
+ $ cd .
+ $ sudo brew install redis
+ $ gem install redis
+ $ gem install recommendify
+ $ sudo redis-server /usr/local/etc/redis.conf
+ % redis-cli
+ redis 127.0.0.1:6379> FLUSHALL
+ OK
+
+== Training
+ 
+ $ ruby train.rb
+
+== Recommandation
+
+ $ ruby test.rb
+
