@@ -1,8 +1,8 @@
 
 == Setup
 
- $ git clone ***
- $ cd ***
+ $ git clone http://github.com/hassaku/try_recommendify.git 
+ $ cd try_recommendify
  $ rvm use 1.9.2@recommendify --create
  $ echo 'rvm use 1.9.2@recommendify' > .rvmrc
  $ cd .
@@ -20,5 +20,9 @@
 
 == Recommandation
 
- $ ruby test.rb
+ $ ruby test.rb  
+ 商品１を購入した人はこんな商品も購入しています。
+ 商品名 : 商品３ 類似度 : 3.9285
+ 商品名 : 商品２ 類似度 : 2.1428
+ 商品名 : 商品４ 類似度 : 1.0714
 
