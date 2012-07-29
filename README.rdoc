@@ -18,7 +18,7 @@
  
  $ ruby train.rb
 
-== Recommandation
+== Recommendation
 
  $ ruby test.rb  
  商品１を購入した人はこんな商品も購入しています。
